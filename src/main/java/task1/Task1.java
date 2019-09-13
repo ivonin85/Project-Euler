@@ -1,8 +1,5 @@
 package task1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Task1 {
 
     /**
@@ -12,17 +9,12 @@ public class Task1 {
      * Найдите сумму всех чисел меньше 1000, кратных 3 или 5.
      */
 
-    public int multipleNumbers(int number) {
+    public int sumDivisibleBy(int number) {
         int sum = 0;
-        List<Integer> listMultipleNumbers = new ArrayList<>();
 
         for (int i = 0; i < 1000; i++) {
-            if (i % number != 0) continue;
-            listMultipleNumbers.add(i);
-        }
-
-        for (int i = 0; i < listMultipleNumbers.size(); i++) {
-            sum += listMultipleNumbers.get(i);
+            if (i % number == 0)
+                sum += i;
         }
         return sum;
     }

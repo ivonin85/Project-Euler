@@ -1,4 +1,4 @@
-package task1;
+package Problem1;
 
 public class SumDivisibleBy {
     static final int LIMIT_NUMBER = 1000;

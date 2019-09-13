@@ -1,6 +1,15 @@
 package task1;
 
-public class Task1 {
+public class SumDivisibleBy {
+    static final int LIMIT_NUMBER = 1000;
+    int number;
+
+    public SumDivisibleBy() {
+    }
+
+    public SumDivisibleBy(int number) {
+        this.number = number;
+    }
 
     /**
      * Задача 1
@@ -9,10 +18,9 @@ public class Task1 {
      * Найдите сумму всех чисел меньше 1000, кратных 3 или 5.
      */
 
-    public int sumDivisibleBy(int number) {
+    public int sumDivisibleBy() {
         int sum = 0;
-
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < LIMIT_NUMBER; i++) {
             if (i % number == 0)
                 sum += i;
         }

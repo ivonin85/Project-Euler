@@ -1,6 +1,6 @@
 package Problem2;
 
-public class Problem2Solution {
+public class Main {
 
     /**Even Fibonacci numbers
      * Problem 2

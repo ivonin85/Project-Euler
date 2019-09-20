@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98590b88-80c7-45fa-aa4f-7d2be85b284b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Problem2/FibonacciNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Problem2/FibonacciNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Problem2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Problem2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Problem3/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Problem3/SieveOfEratosthenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Problem2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Problem3/SieveOfEratosthenes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Problem3/SieveOfEratosthenes.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibonacciNumbers">
+  <component name="RunManager" selected="Application.SieveOfEratosthenes">
     <configuration name="FibonacciNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem2.FibonacciNumbers" />
       <module name="Project-Euler" />
@@ -144,9 +146,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SieveOfEratosthenes" />
         <item itemvalue="Application.FibonacciNumbers" />
         <item itemvalue="Application.Multiples" />
-        <item itemvalue="Application.SieveOfEratosthenes" />
         <item itemvalue="Application.NewPr" />
         <item itemvalue="Application.Main" />
       </list>

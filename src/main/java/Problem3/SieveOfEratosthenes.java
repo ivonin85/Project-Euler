@@ -1,12 +1,9 @@
 package Problem3;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class SieveOfEratosthenes {
-
-
     static void higherNumber(long number) {
         List<Integer> lastNum = new ArrayList<>();
 
@@ -14,22 +11,16 @@ public class SieveOfEratosthenes {
         int[] sieve = new int[N];
 
         for (int i = 2; i * i < N; ++i)
-            if (sieve[i] == 0)
-                for (int k = i * i; k < N; k += i)
-                    sieve[k] = 1;
-
-        System.out.println();
+            for (int k = i * i; k < N; k += i)
+                sieve[k] = 1;
 
         for (int i = 2; i < N; i++) {
             if (sieve[i] == 0)
                 if (number % i == 0) {
                     lastNum.add(i);
                 }
-
         }
         System.out.println(lastNum.get(lastNum.size() - 1));
-
-
     }
 
     /**
